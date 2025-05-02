@@ -37,6 +37,7 @@ This repository serves as:
 ## 🗂️ Repository Structure like that
 
 htb-academy-cpts/
+```shell
 ├── README.md
 ├── enumeration/
 │ ├── ftp.md
@@ -50,7 +51,7 @@ htb-academy-cpts/
 │ └── windows-privesc.md
 └── post-exploitation/
 └── persistence.md
-
+```
 
 ## 📌 Disclaimer
 
