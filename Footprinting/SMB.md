@@ -5,7 +5,7 @@ This document provides an overview of SMB (Server Message Block) protocol, its c
 
 ## 📚 **Table of Contents**
 
-1. [SMB Protocol Summary](https://chatgpt.com/c/68154776-b40c-8003-b26f-282165f2d027#smb-protocol-summary)
+1. [SMB Protocol Summary](#smb-protocol-summary)
     
 2. [What is `smb.conf`?](#what-is-smbconf)
     
@@ -28,7 +28,8 @@ This document provides an overview of SMB (Server Message Block) protocol, its c
 11. [Check Samba Connections with `smbstatus`](#check-samba-connections-with-smbstatus)
     
 12. [Advanced Footprinting Tools](#advanced-footprinting-tools)
-    
+
+13. [Target Lab](#Lab-Target)
 
 ---
 
