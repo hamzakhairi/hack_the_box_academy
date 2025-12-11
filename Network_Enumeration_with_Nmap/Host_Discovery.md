@@ -1,7 +1,7 @@
 Host Discovery
 ==============
 
-# **Scan Network Range**
+**Scan Network Range**
 
 ```bash
 $ sudo nmap IP/24 -sn -oA tenet 
@@ -12,7 +12,7 @@ IP/24		: Target network range.
 -oA tent	: Stores the results in all formats
 
 
-# **Scan IP List**
+**Scan IP List**
 
 if you have list like 
 
@@ -23,8 +23,15 @@ $cat IP.list
 10.129.2.11
 ```
 
+and the you do this
+```bash
+$ sudo nmap -sn -oA tnet -iL IP.list | grep for | cut -d" " -f5
+```
 
+`+ 1  Based on the last result, find out which operating system it belongs to. Submit the name of the operating system as result.`
 
+`is : Windows `
 
+becouse the ttl = 128 A TTL value of 128 in a ping response indicates that the packet originated from a device, typically a Windows operating system.
 
 
